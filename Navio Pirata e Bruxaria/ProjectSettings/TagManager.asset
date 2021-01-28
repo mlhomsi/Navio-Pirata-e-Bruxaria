@@ -44,3 +44,6 @@ TagManager:
   - name: Characters
     uniqueID: 1918826063
     locked: 0
+  - name: Objetos
+    uniqueID: 251945613
+    locked: 0
