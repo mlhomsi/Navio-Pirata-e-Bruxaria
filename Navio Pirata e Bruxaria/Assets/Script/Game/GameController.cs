@@ -19,6 +19,8 @@ public class GameController : MonoBehaviour
 
     public bool isSelected = false;
 
+    public event Action Spelldeselect;
+
     public void Chant(Effect effect)
     {
         effect.WhenChant(this.gameObject);
@@ -35,6 +37,7 @@ public class GameController : MonoBehaviour
         //spawner.ClearSpells(spells);
         spawner.AddSpells(gameSettings.ListSpells, gameSettings.Locations);
         selectSpell.Spellselected += SelectHandler;
+        Spelldeselect += selectSpell.DeselectSpell;
     }
     private void Update()
     {
@@ -44,6 +47,7 @@ public class GameController : MonoBehaviour
             Chant(SpellSelected.Geteffect);
             isSelected = false;
             SpellSelected = null;
+            Spelldeselect?.Invoke();
         }
     }
 }

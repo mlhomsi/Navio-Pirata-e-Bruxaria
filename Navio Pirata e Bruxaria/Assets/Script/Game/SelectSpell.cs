@@ -10,12 +10,20 @@ public class SelectSpell : MonoBehaviour
     private GameSettings gameSettings;
 
     public event EventHandler<InventoryArgs> Spellselected;
+
+    private Image slotimage;
+
     private void Selectspell(Spell spell)
     {
         if (Spellselected != null)
         {
             Spellselected(this, new InventoryArgs(spell));
         }
+    }
+    public void DeselectSpell()
+    {
+        slotimage.sprite = null;
+        slotimage.enabled = false;
     }
     public void Buttonfunct(int i)
     {
@@ -33,7 +41,6 @@ public class SelectSpell : MonoBehaviour
         {
             Selectspell(spell);
         }
-        image.sprite = null;
-        image.enabled = false;
+        slotimage = image;
     }
 }
