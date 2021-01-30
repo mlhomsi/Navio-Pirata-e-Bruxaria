@@ -12,6 +12,8 @@ public class SelectSpell : MonoBehaviour
     public event EventHandler<InventoryArgs> Spellselected;
 
     private Image slotimage;
+    private Inventory inventorystored;
+    private Spell spellstored;
 
     private void Selectspell(Spell spell)
     {
@@ -24,6 +26,7 @@ public class SelectSpell : MonoBehaviour
     {
         slotimage.sprite = null;
         slotimage.enabled = false;
+        inventorystored.RemoveSpell(spellstored);
     }
     public void Buttonfunct(int i)
     {
@@ -42,5 +45,8 @@ public class SelectSpell : MonoBehaviour
             Selectspell(spell);
         }
         slotimage = image;
+        inventorystored = inventory;
+        spellstored = spell;
+        
     }
 }
