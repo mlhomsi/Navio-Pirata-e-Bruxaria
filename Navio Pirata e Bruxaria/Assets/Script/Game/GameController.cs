@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,6 +27,7 @@ public class GameController : MonoBehaviour
     private void SelectHandler (object sender, InventoryArgs s)
     {
         SpellSelected = s.Spell;
+        print("Alo");
         isSelected = true;
     }
     private void Start()
@@ -36,10 +38,12 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-        if (isSelected & Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && SpellSelected && isSelected)
         {
+            print("CASTING "+ isSelected);
             Chant(SpellSelected.Geteffect);
             isSelected = false;
+            SpellSelected = null;
         }
     }
 }

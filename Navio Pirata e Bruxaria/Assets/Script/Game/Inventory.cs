@@ -7,6 +7,7 @@ public class Inventory : MonoBehaviour
     private const int Slots = 3;
 
     private List<Spell> nSpells = new List<Spell>();
+    public List<Spell> Storage => nSpells;
 
     public event EventHandler<InventoryArgs> SpellAdded;
 
@@ -17,7 +18,7 @@ public class Inventory : MonoBehaviour
             Collider2D collider = spell.GetComponent<Collider2D>();
             if (collider.enabled)
             {
-               collider.enabled = false;
+                collider.enabled = false;
 
                 nSpells.Add(spell);
 

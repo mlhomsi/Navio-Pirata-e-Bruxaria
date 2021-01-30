@@ -4,6 +4,7 @@ using UnityEngine;
 
 //[RequireComponent(typeof(Rigidbody2D))] maybe not ?
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class Spell : MonoBehaviour
 {
     //protected GameController controller;

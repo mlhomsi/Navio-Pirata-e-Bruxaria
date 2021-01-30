@@ -21,12 +21,19 @@ public class SelectSpell : MonoBehaviour
     {
         Transform HUD = transform.parent;
         Transform inventoryPanel = HUD.Find("Inventory");
+        Inventory inventory = inventoryPanel.GetComponent<Inventory>();
 
         Transform slot = inventoryPanel.GetChild(i);
 
         Image image = slot.GetChild(0).GetChild(0).GetComponent<Image>();
-        Spell spell = gameSettings.ListSpells.Find(p => p.getSprite == image.sprite);
-        Selectspell(spell);
 
+        Spell spell = inventory.Storage.Find(p => p.getSprite == image.sprite);
+
+        if (spell != null)
+        {
+            Selectspell(spell);
+        }
+        image.sprite = null;
+        image.enabled = false;
     }
 }

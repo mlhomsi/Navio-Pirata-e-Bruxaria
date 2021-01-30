@@ -6,7 +6,7 @@ public class PlaceholderSpell :Effect
 {
     public override void WhenChant(GameObject target)
     {
-        Console.WriteLine("Shazam carai");
+        Debug.Log("Shazam carai");
     }
 
 }
