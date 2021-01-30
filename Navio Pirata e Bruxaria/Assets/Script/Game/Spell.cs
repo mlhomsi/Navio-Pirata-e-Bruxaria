@@ -12,19 +12,27 @@ public class Spell : MonoBehaviour
     [SerializeField]
     [Tooltip("Efeito da magia")]
     private Effect effect;
+    public Effect Geteffect => effect;
 
     private SpriteRenderer spriteRenderer;
-    public SpriteRenderer SpellSprite => spriteRenderer;
+    public Sprite getSprite => spriteRenderer.sprite;
+
 
     public static Spell CreateSpellItem(Spell prefab, Vector3 Pos0 /*,GameController controller*/)
     {
         Spell spell = Instantiate(prefab, Pos0, Quaternion.identity);
         //spell.controller = controller; possibly not needed
+        //spell.spriteRenderer.sprite = prefab.spriteRenderer.sprite;
         return spell;
     }
     public void OnPickup()
     {
         //Maybe more things later ?
         gameObject.SetActive(false);
+        print("Fui chamado");
+    }
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 }
