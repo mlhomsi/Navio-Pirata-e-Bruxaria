@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e978fdffde41a4d588144178cbbfd319
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8890077817667913301
+    second: cena-creditos-proa-objetos_0
+  - first:
+      213: -6343038766101253141
+    second: cena-creditos-proa-objetos_1
+  - first:
+      213: 5348719858007215595
+    second: cena-creditos-proa-objetos_2
+  - first:
+      213: -6616015777746712017
+    second: cena-creditos-proa-objetos_3
+  - first:
+      213: -1554312625976922491
+    second: cena-creditos-proa-objetos_4
+  - first:
+      213: -5225588152770969704
+    second: cena-creditos-proa-objetos_5
+  - first:
+      213: -6503471094429091680
+    second: cena-creditos-proa-objetos_6
+  - first:
+      213: 2344453552562704474
+    second: cena-creditos-proa-objetos_7
+  - first:
+      213: -1145605491206808849
+    second: cena-creditos-proa-objetos_8
+  - first:
+      213: 4078859694204202338
+    second: cena-creditos-proa-objetos_9
+  - first:
+      213: 7604958034149512689
+    second: cena-creditos-proa-objetos_10
+  - first:
+      213: 775763632285438186
+    second: cena-creditos-proa-objetos_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +121,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9f254935910a480800000000000000
+      internalID: -8890077817667913301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 58
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b00e59dff8f7a0800000000000000
+      internalID: -6343038766101253141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 86
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed09934f587a3a40800000000000000
+      internalID: 5348719858007215595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 8
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a070b04b03f24a0800000000000000
+      internalID: -6616015777746712017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 82
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eadbad6e8fd6ae0800000000000000
+      internalID: -1554312625976922491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 40
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb89be24bfa77b0800000000000000
+      internalID: -5225588152770969704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 57
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a878891f770fb5a0800000000000000
+      internalID: -6503471094429091680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 68
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5017e8a51c298020800000000000000
+      internalID: 2344453552562704474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea91eb10edf910f0800000000000000
+      internalID: -1145605491206808849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d23b9f7450b9830800000000000000
+      internalID: 4078859694204202338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f51c3d0a0d3a8960800000000000000
+      internalID: 7604958034149512689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cena-creditos-proa-objetos_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae05a04d9e014ca00800000000000000
+      internalID: 775763632285438186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

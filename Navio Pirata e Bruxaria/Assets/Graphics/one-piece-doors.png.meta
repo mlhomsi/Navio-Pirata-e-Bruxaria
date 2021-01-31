@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: 0f029156d9c614004979c4991ae5c69e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3603908437014149223
+    second: one-piece-doors_0
+  - first:
+      213: 1828189217211655127
+    second: one-piece-doors_1
+  - first:
+      213: 4970987556309659635
+    second: one-piece-doors_2
+  - first:
+      213: 2366665473820853825
+    second: one-piece-doors_3
+  - first:
+      213: -4244796741747877034
+    second: one-piece-doors_4
+  - first:
+      213: 6251758282026582067
+    second: one-piece-doors_5
+  - first:
+      213: -7605340588286424590
+    second: one-piece-doors_6
+  - first:
+      213: 6399366058194682084
+    second: one-piece-doors_7
+  - first:
+      213: 6638891381887077444
+    second: one-piece-doors_8
+  - first:
+      213: 8331948908028988046
+    second: one-piece-doors_9
+  - first:
+      213: -5969777216393032146
+    second: one-piece-doors_10
+  - first:
+      213: -1600487195445627597
+    second: one-piece-doors_11
+  - first:
+      213: 4536893714059456012
+    second: one-piece-doors_12
+  - first:
+      213: 1661564067622313431
+    second: one-piece-doors_13
+  - first:
+      213: 4337481420397732535
+    second: one-piece-doors_14
+  - first:
+      213: 857241370556410257
+    second: one-piece-doors_15
+  - first:
+      213: 8673796756500971421
+    second: one-piece-doors_16
+  - first:
+      213: -4742048428878078595
+    second: one-piece-doors_17
+  - first:
+      213: 2747104783528826487
+    second: one-piece-doors_18
+  - first:
+      213: -3403125173943345996
+    second: one-piece-doors_19
+  - first:
+      213: 4408401642268268655
+    second: one-piece-doors_20
+  - first:
+      213: 3261897178917580150
+    second: one-piece-doors_21
+  - first:
+      213: -4951842021841095447
+    second: one-piece-doors_22
+  - first:
+      213: 4369178970919074870
+    second: one-piece-doors_23
+  - first:
+      213: 6871052014139384082
+    second: one-piece-doors_24
+  - first:
+      213: 6890196856289592507
+    second: one-piece-doors_25
+  - first:
+      213: -9024485516826523425
+    second: one-piece-doors_26
+  - first:
+      213: -4890050597207831212
+    second: one-piece-doors_27
+  - first:
+      213: -2277444151705468603
+    second: one-piece-doors_28
+  - first:
+      213: 6063377947438702965
+    second: one-piece-doors_29
+  - first:
+      213: 4286971083848137001
+    second: one-piece-doors_30
+  - first:
+      213: 577157809304156336
+    second: one-piece-doors_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +181,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: one-piece-doors_0
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 984
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768f24f01a7a30230800000000000000
+      internalID: 3603908437014149223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 908
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3a91a28680f5910800000000000000
+      internalID: 1828189217211655127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 908
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff69b458de7cf440800000000000000
+      internalID: 4970987556309659635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_3
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 902
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146064595b518d020800000000000000
+      internalID: 2366665473820853825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 851
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bd1607ad37715c0800000000000000
+      internalID: -4244796741747877034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 851
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3300dc5c805b2c650800000000000000
+      internalID: 6251758282026582067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_6
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 846
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9c35f9707647690800000000000000
+      internalID: -7605340588286424590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 700
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0c26e468d1fc850800000000000000
+      internalID: 6399366058194682084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 700
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c08c79984122c50800000000000000
+      internalID: 6638891381887077444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_9
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 700
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a85c5236701a370800000000000000
+      internalID: 8331948908028988046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 640
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4cac3047172da0800000000000000
+      internalID: -5969777216393032146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_11
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 640
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f6ef106de9c9e0800000000000000
+      internalID: -1600487195445627597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_12
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 666
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e6732abc846fe30800000000000000
+      internalID: 4536893714059456012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_13
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 611
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd5e2657bf0f0710800000000000000
+      internalID: 1661564067622313431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 563
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e9a2fe54d13c30800000000000000
+      internalID: 4337481420397732535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 506
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199a8c21c7885eb00800000000000000
+      internalID: 857241370556410257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 447
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ffc2db1348f5870800000000000000
+      internalID: 8673796756500971421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 390
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dd501141cd03eb0800000000000000
+      internalID: -4742048428878078595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_18
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 424
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776130fee3daf1620800000000000000
+      internalID: 2747104783528826487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_19
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 369
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcdae05faba5c0d0800000000000000
+      internalID: -3403125173943345996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_20
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 314
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6816aadfe9cd2d30800000000000000
+      internalID: 4408401642268268655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_21
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 314
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2b33b336944d20800000000000000
+      internalID: 3261897178917580150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_22
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 354
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e43f48cae5874bb0800000000000000
+      internalID: -4951842021841095447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_23
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 354
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cfcb9002172ac30800000000000000
+      internalID: 4369178970919074870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 222
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211a2080761ea5f50800000000000000
+      internalID: 6871052014139384082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 164
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb487a3f885ee9f50800000000000000
+      internalID: 6890196856289592507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_26
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8c5e87c3692c280800000000000000
+      internalID: -9024485516826523425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_27
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d8db3f3ec032cb0800000000000000
+      internalID: -4890050597207831212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_28
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410ec54c94e460e0800000000000000
+      internalID: -2277444151705468603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_29
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57165083e12752450800000000000000
+      internalID: 6063377947438702965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_30
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929b327cc716e7b30800000000000000
+      internalID: 4286971083848137001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one-piece-doors_31
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 64
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8baea38f9720800800000000000000
+      internalID: 577157809304156336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
