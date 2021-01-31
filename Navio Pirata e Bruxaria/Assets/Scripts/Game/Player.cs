@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        PlayerAnim = this.gameObject.GetComponent<Animator>();
         //inventory = GetComponent<Inventory>();
     }
 
