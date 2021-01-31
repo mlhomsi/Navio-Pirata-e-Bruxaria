@@ -32,9 +32,6 @@ public class Inventory : MonoBehaviour
     }
     public void RemoveSpell(Spell spell)
     {
-        print("Count F "+nSpells.Count);
         nSpells.Remove(spell);
-        print("Count E "+nSpells.Count);
-
     }
 }

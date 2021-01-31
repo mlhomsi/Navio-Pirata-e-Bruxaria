@@ -21,16 +21,21 @@ public class GameController : MonoBehaviour
 
     public event Action Spelldeselect;
 
+    private Target target;
     public void Chant(Effect effect)
     {
-        effect.WhenChant(this.gameObject);
+        effect.WhenChant(target);
     }
 
     private void SelectHandler (object sender, InventoryArgs s)
     {
         SpellSelected = s.Spell;
-        print("Alo");
+        //print("Alo");
         isSelected = true;
+    }
+    public void SetTarget (Target targeted)
+    {
+        target = targeted;
     }
     private void Start()
     {
@@ -43,7 +48,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && SpellSelected && isSelected)
         {
-            print("CASTING "+ isSelected);
+            print("CASTING " + isSelected);
             Chant(SpellSelected.Geteffect);
             isSelected = false;
             SpellSelected = null;
