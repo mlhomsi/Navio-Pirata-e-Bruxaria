@@ -47,6 +47,9 @@ TagManager:
   - name: Characters
     uniqueID: 2793971341
     locked: 0
+  - name: Bruxa
+    uniqueID: 2077054567
+    locked: 0
   - name: VFX
     uniqueID: 1431826519
     locked: 0
