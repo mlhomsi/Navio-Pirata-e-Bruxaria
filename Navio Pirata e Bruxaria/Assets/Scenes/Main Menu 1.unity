@@ -3406,7 +3406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  inventory: {fileID: 0}
+  inventory: {fileID: 1831563311}
 --- !u!50 &1297039076
 Rigidbody2D:
   serializedVersion: 4
@@ -10189,7 +10189,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.7763975, y: 1}
+    m_SensorSize: {x: 1.7788104, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
