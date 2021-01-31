@@ -2829,7 +2829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ae70050f116c34ab496f39f9416db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSettings: {fileID: 0}
+  gameSettings: {fileID: 11400000, guid: ec24fe425b553114fb8e0294c5044f40, type: 2}
   spawner: {fileID: 613304601}
   selectSpell: {fileID: 1558352567}
   SpellSelected: {fileID: 0}
