@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     private float speed = 5f;
     Vector2 direction;
 
+    public Animator PlayerAnim;
+
     [SerializeField]
     private Inventory inventory;
 
@@ -25,11 +27,26 @@ public class Player : MonoBehaviour
     {
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
+
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+
+        if(direction.x != 0 || direction.y != 0)
+        {
+            if(direction.x >0)
+            {
+                PlayerAnim.SetBool("Idle", false);
+                PlayerAnim.Play("PlayerWalkDir");
+            }else 
+            {
+                PlayerAnim.SetBool("Idle", false);
+                PlayerAnim.Play("PlayerWalkFront");
+            }
+
+        } else PlayerAnim.SetBool("Idle", true);
     }
 
     private void OnTriggerEnter2D (Collider2D collider2D)
