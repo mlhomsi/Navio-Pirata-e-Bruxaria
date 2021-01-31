@@ -12931,7 +12931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  PlayerAnim: {fileID: 1297039078}
+  PlayerAnim: {fileID: 0}
   inventory: {fileID: 1831563311}
 --- !u!50 &1297039076
 Rigidbody2D:
