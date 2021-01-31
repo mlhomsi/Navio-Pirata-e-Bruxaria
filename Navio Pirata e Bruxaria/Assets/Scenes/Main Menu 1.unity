@@ -2829,9 +2829,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ae70050f116c34ab496f39f9416db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSettings: {fileID: 11400000, guid: ec24fe425b553114fb8e0294c5044f40, type: 2}
-  spawner: {fileID: 0}
-  selectSpell: {fileID: 0}
+  gameSettings: {fileID: 0}
+  spawner: {fileID: 613304601}
+  selectSpell: {fileID: 1558352567}
   SpellSelected: {fileID: 0}
   isSelected: 0
 --- !u!1 &999488789
@@ -3405,9 +3405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5250c89c231c804687642e8cbfdd85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
   speed: 5
-  direction: {x: 0, y: 0}
+  inventory: {fileID: 0}
 --- !u!50 &1297039076
 Rigidbody2D:
   serializedVersion: 4
@@ -3788,7 +3787,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 0}
+  sharedProfile: {fileID: 11400000, guid: a3e63d14e015345b4aa99fbd6b0538b7, type: 2}
 --- !u!1 &1391488855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4324,10 +4323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00ab50b69370fc4fb7eae8854849dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSettings: {fileID: 11400000, guid: ec24fe425b553114fb8e0294c5044f40, type: 2}
-  slotimage: {fileID: 0}
-  inventorystored: {fileID: 0}
-  spellstored: {fileID: 0}
+  gameSettings: {fileID: 0}
 --- !u!4 &1558352568
 Transform:
   m_ObjectHideFlags: 0
@@ -4835,7 +4831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a0451b84c5018408e68ecda7ef1724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nSpells: []
 --- !u!114 &1831563312
 MonoBehaviour:
   m_ObjectHideFlags: 0
